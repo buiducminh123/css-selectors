@@ -1,0 +1,62 @@
+/* ELEMENT selector: đổi màu nền cả trang */
+body {
+    background-color: #eef4fb;
+    padding: 20px;
+}
+
+/* GROUPING selector: tiêu đề và đoạn văn dùng chung font, màu chữ */
+h1,
+p {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* ID selector: căn giữa tiêu đề */
+#title {
+    text-align: center;
+    color: #1a5fb4;
+}
+
+/* CLASS selector: đoạn văn giới thiệu */
+.intro {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* CLASS selector: định dạng chung cho các mục sở thích */
+.hobby {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 4px 0;
+}
+
+/* CLASS selector: mỗi sở thích một màu khác nhau */
+.hobby-1 {
+    color: #e01b24;
+}
+
+.hobby-2 {
+    color: #26a269;
+}
+
+.hobby-3 {
+    color: #9141ac;
+}
+
+/* CLASS selector: nút bấm */
+.btn {
+    background-color: #1a5fb4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* PSEUDO-CLASS: hiệu ứng khi rê chuột vào nút */
+.btn:hover {
+    background-color: #e66100;
+    transform: scale(1.1);
+}
